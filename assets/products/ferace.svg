@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#eee5d8"/><stop offset="1" stop-color="#d5c3ad"/></linearGradient></defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<circle cx="400" cy="245" r="92" fill="#4b3528"/>
+<path d="M290 340 Q400 290 510 340 L610 760 Q400 860 190 760Z" fill="#4a3529"/>
+<path d="M290 360 Q400 420 510 360 L560 720 Q400 800 240 720Z" fill="#63483a" opacity=".75"/>
+<text x="400" y="900" text-anchor="middle" font-family="Georgia,serif" font-size="34" fill="#2c211b">Ferace</text>
+<text x="400" y="942" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="4" fill="#5d4c40">FERACE</text>
+</svg>
