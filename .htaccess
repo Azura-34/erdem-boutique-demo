@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(config\.php|products-seed\.json|db\.sql)$">
+  Require all denied
+</FilesMatch>

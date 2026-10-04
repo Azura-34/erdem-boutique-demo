@@ -1,0 +1,9 @@
+/config.php
+/.installed
+/.env
+/.env.*
+/vendor/
+/node_modules/
+*.log
+/uploads/products/*
+!/uploads/products/.htaccess
