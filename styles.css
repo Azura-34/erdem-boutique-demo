@@ -527,6 +527,7 @@ footer a:not(.logo):hover { color: var(--ink); }
   .editorial-side > div { min-height: 150px; padding: 19px; }
   .editorial-side p { font-size: 25px; }
   .instagram.section { padding-top: 0; }
+  .instagram .section-head { align-items: flex-start; flex-direction: column; gap: 13px; }
   .insta-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 5px; }
   footer { padding: 48px 20px; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 20px; }
   .footer-brand { grid-column: 1 / -1; }
