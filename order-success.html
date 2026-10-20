@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header"><a class="logo" href="index.html">ERDEM<small>BOUTIQUE</small></a></header>
+  <div class="topbar"><span>ERDEM BOUTIQUE · SİPARİŞ TALEBİ</span></div>
+  <header class="header"><a class="logo" href="index.html" aria-label="Erdem Boutique ana sayfa">ERDEM<small>BOUTIQUE</small></a><nav aria-label="Ana gezinme"><a href="index.html">Ana Sayfa</a><a href="shop.html">Koleksiyon</a></nav><div class="actions"><a href="shop.html">Alışverişe dön ↗</a></div></header>
   <main class="section success-page">
     <p class="eyebrow">ERDEM BOUTIQUE</p>
     <h1>Sipariş talebiniz alındı</h1>
@@ -16,6 +17,7 @@
     <p class="payment-note">Bu kayıt ödeme alındığı veya stok ayrıldığı anlamına gelmez. Çevrimiçi ödeme etkin değildir; stok ve ödeme bilgileri ayrıca teyit edilmelidir.</p>
     <a class="btn" href="shop.html">Koleksiyona dön →</a>
   </main>
+  <footer><div class="footer-brand"><a class="logo" href="index.html">ERDEM<small>BOUTIQUE</small></a><p>Erdem Boutique koleksiyonunu keşfedin.</p></div><div><h4>Keşfet</h4><a href="index.html">Ana Sayfa</a><a href="shop.html">Tüm Ürünler</a></div><div><h4>Yardım</h4><a href="iletisim.html">İletişim</a><a href="sss.html">Sıkça Sorulan Sorular</a></div><div><h4>Takip Edin</h4><a href="https://www.instagram.com/erdemboutique/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.shopier.com/erdemboutique/" target="_blank" rel="noopener noreferrer">Shopier ↗</a></div></footer>
   <script>document.querySelector('#orderNo').textContent = new URLSearchParams(location.search).get('order') || '—';</script>
 </body>
 </html>

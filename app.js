@@ -68,6 +68,16 @@ async function initHome() {
   if (gallery) gallery.innerHTML = catalog.slice(0, 8).map(product =>
     `<a href="product.html?id=${encodeURIComponent(product.slug)}"><img src="${esc(image(product))}" alt="${esc(product.name)}" loading="lazy"></a>`
   ).join('');
+  document.querySelectorAll('.cat-card').forEach(link => {
+    const product = catalog.find(item => item.category === link.dataset.cat);
+    if (!product) return;
+    const categoryImage = document.createElement('img');
+    categoryImage.className = 'category-image';
+    categoryImage.src = image(product);
+    categoryImage.alt = '';
+    categoryImage.setAttribute('aria-hidden', 'true');
+    link.prepend(categoryImage);
+  });
 }
 
 async function initShop() {
@@ -120,6 +130,7 @@ async function initProduct() {
   const product = catalog.find(item => item.slug === slug) || catalog[0];
   const page = document.querySelector('#productPage');
   if (!product || !page) return;
+  document.title = `${product.name} — Erdem Boutique`;
 
   const sizes = Array.isArray(product.sizes) ? product.sizes : [];
   const colors = Array.isArray(product.colors) ? product.colors : [];
