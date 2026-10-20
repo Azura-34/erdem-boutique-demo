@@ -1,1 +1,21 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sipariş Alındı — Erdem Boutique</title><link rel="stylesheet" href="styles.css"></head><body><header class="header"><a class="logo" href="index.html">ERDEM<small>BOUTIQUE</small></a></header><main class="section success-page"><p class="eyebrow">ERDEM BOUTIQUE</p><h1>Siparişiniz Alındı</h1><p>Sipariş numaranız:</p><strong id="orderNo"></strong><p class="payment-note">Ödeme bağlantısı iyzico entegrasyonu tamamlandığında bu adımda açılacaktır.</p><a class="btn" href="shop.html">Alışverişe Devam Et →</a></main><script>orderNo.textContent=new URLSearchParams(location.search).get('order')||'—'</script></body></html>
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sipariş Talebi Alındı — Erdem Boutique</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header"><a class="logo" href="index.html">ERDEM<small>BOUTIQUE</small></a></header>
+  <main class="section success-page">
+    <p class="eyebrow">ERDEM BOUTIQUE</p>
+    <h1>Sipariş talebiniz alındı</h1>
+    <p>Sipariş talep numaranız:</p>
+    <strong id="orderNo"></strong>
+    <p class="payment-note">Bu kayıt ödeme alındığı veya stok ayrıldığı anlamına gelmez. Çevrimiçi ödeme etkin değildir; stok ve ödeme bilgileri ayrıca teyit edilmelidir.</p>
+    <a class="btn" href="shop.html">Koleksiyona dön →</a>
+  </main>
+  <script>document.querySelector('#orderNo').textContent = new URLSearchParams(location.search).get('order') || '—';</script>
+</body>
+</html>
