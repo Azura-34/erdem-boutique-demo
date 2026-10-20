@@ -17,7 +17,7 @@ async function products() {
   try {
     const response = await fetch('api.php?action=products', {cache:'no-store'});
     const data = await response.json();
-    if (data.ok && Array.isArray(data.products)) return PRODUCTS_CACHE = data.products;
+    if (data.ok && Array.isArray(data.products) && data.products.length) return PRODUCTS_CACHE = data.products;
   } catch (error) {
     // Static hosting uses the checked-in seed catalog below.
   }
@@ -68,9 +68,6 @@ async function initHome() {
   if (gallery) gallery.innerHTML = catalog.slice(0, 8).map(product =>
     `<a href="product.html?id=${encodeURIComponent(product.slug)}"><img src="${esc(image(product))}" alt="${esc(product.name)}" loading="lazy"></a>`
   ).join('');
-  document.querySelectorAll('.cat-card').forEach(link => link.onclick = () => {
-    localStorage.setItem('filter', link.dataset.cat);
-  });
 }
 
 async function initShop() {
@@ -79,7 +76,11 @@ async function initShop() {
   const search = document.querySelector('#productSearch');
   const sort = document.querySelector('#productSort');
   const resultCount = document.querySelector('#resultCount');
-  let category = localStorage.getItem('filter') || 'Tümü';
+  const requestedCategory = new URLSearchParams(location.search).get('category');
+  const knownCategories = new Set([...filters].map(button => button.dataset.filter));
+  let category = knownCategories.has(requestedCategory)
+    ? requestedCategory
+    : localStorage.getItem('filter') || 'Tümü';
   localStorage.removeItem('filter');
 
   function update() {
