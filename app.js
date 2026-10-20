@@ -140,11 +140,11 @@ async function initProduct() {
       ${gallery.length > 1 ? `<div class="product-thumbs">${gallery.map(src => `<button type="button" data-image="${esc(src)}"><img src="${esc(src)}" alt="${esc(product.name)} görseli"></button>`).join('')}</div>` : ''}
     </div><div class="product-detail"><p class="eyebrow">${esc(product.category)}</p><h1>${esc(product.name)}</h1>
       <div class="big-price">${fmt(product.price)}${comparePrice > Number(product.price) ? ` <del class="compare-price">${fmt(comparePrice)}</del>` : ''}</div>
-      <p class="product-description">${esc(product.description || 'Ürün açıklaması mağaza kaynağında paylaşılmadı. Beden, renk ve stok bilgilerini sipariş öncesinde işletme ile teyit edin.')}</p>
+      <p class="product-description">${esc(product.description || `${product.name}, Erdem Boutique koleksiyonundan seçkin bir tasarım. Ürün detayları için bizimle iletişime geçin.`)}</p>
       ${sizes.length ? `<div class="option-label">BEDEN</div><div class="options" id="sizes">${sizes.map((size, index) => `<button type="button" class="${index === 0 ? 'selected' : ''}">${esc(size)}</button>`).join('')}</div>` : ''}
       ${colors.length ? `<div class="option-label">RENK</div><div class="options" id="colors">${colors.map((color, index) => `<button type="button" class="${index === 0 ? 'selected' : ''}">${esc(color)}</button>`).join('')}</div>` : ''}
       <button class="btn full" id="addBtn" type="button">Sepete Ekle <span>→</span></button>
-      <p class="product-benefits">Stok ve sipariş detayları sipariş onayında teyit edilir.</p>
+      <p class="product-benefits">Bu tasarımla ilgili detaylar için <a href="iletisim.html">bize ulaşın</a>.</p>
     </div>`;
 
   page.querySelectorAll('.options button').forEach(button => button.onclick = () => {
@@ -181,7 +181,7 @@ async function initCart() {
       <div class="line-total">${fmt(line)}</div><button type="button" aria-label="Ürünü sepetten çıkar" onclick="removeItem(${index})">×</button></div>`;
   }).join('');
   box.innerHTML = rows + `<div class="cart-summary"><div class="cart-total-line"><span>Toplam</span><strong>${fmt(total)}</strong></div>
-    <p class="cart-note">Stok ve ödeme bilgileri sipariş onayında teyit edilir.</p><a class="btn full" href="checkout.html">Siparişi Tamamla →</a></div>`;
+    <p class="cart-note">Seçiminizi tamamlamak için sipariş talebinizi iletin.</p><a class="btn full" href="checkout.html">Sipariş talebi oluştur →</a></div>`;
 }
 
 window.changeQty = (index, delta) => {
