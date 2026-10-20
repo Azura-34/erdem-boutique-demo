@@ -4,8 +4,8 @@
     "name": "Defne Kupra Ferace",
     "category": "Ferace",
     "price": 4500,
-    "badge": "Yeni Sezon",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_bfc1dff51a46cf7208e9b84b81d84519.png"
+    "badge": "",
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_bfc1dff51a46cf7208e9b84b81d84519.png"
   },
   {
     "slug": "defne-kupra-elbise",
@@ -13,7 +13,7 @@
     "category": "Elbise ve Tunik",
     "price": 4500,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_51ed24f4cc0c5ff037c09e6e083ec6d7.png"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_51ed24f4cc0c5ff037c09e6e083ec6d7.png"
   },
   {
     "slug": "salvarli-kupra-takim",
@@ -21,7 +21,7 @@
     "category": "Takım",
     "price": 4300,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_1e0d5cc0119aa240e49469b52c36fed5.jpeg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_1e0d5cc0119aa240e49469b52c36fed5.jpeg"
   },
   {
     "slug": "nur-umre-abaya",
@@ -29,7 +29,7 @@
     "category": "Abaya",
     "price": 3000,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_57b83bed4860ea51cbfc6b75942568b5.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_9253c81afec208f3c8a7a01717797ab6.jpg"
   },
   {
     "slug": "nur-umre-takim",
@@ -37,7 +37,7 @@
     "category": "Takım",
     "price": 2500,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_57b83bed4860ea51cbfc6b75942568b5.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_57b83bed4860ea51cbfc6b75942568b5.jpg"
   },
   {
     "slug": "ikra-elbise",
@@ -45,15 +45,15 @@
     "category": "Elbise ve Tunik",
     "price": 3500,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_99c64a2ae0742eca61541bf2d4e38760.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_74daf8d89dd9b104b50020f66838aa27.jpg"
   },
   {
     "slug": "hira-elbise",
     "name": "Hira Elbise (İpek Kupra Abaya)",
     "category": "Elbise ve Tunik",
     "price": 4500,
-    "badge": "Çok Satan",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_8542e423301260694047ccd010a78dc8.jpg"
+    "badge": "",
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_fd873e9cfdcd09263e51b4d95b7d7672.jpg"
   },
   {
     "slug": "tas-baskili-abaya",
@@ -61,7 +61,7 @@
     "category": "Abaya",
     "price": 3500,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_a12a73741d90a4a610e180588c8772fb.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_a12a73741d90a4a610e180588c8772fb.jpg"
   },
   {
     "slug": "helen-elbise",
@@ -69,7 +69,7 @@
     "category": "Elbise ve Tunik",
     "price": 3500,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_710ddb78fd57bfd76d07205c8b7289ea.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_710ddb78fd57bfd76d07205c8b7289ea.jpg"
   },
   {
     "slug": "lale-takim",
@@ -77,7 +77,7 @@
     "category": "Takım",
     "price": 3000,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_b0c546fcbb304992aa3842b7214ebca2.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_cda8d68e45862c502525f6708e0978ba.jpg"
   },
   {
     "slug": "oskar-tunik",
@@ -85,7 +85,7 @@
     "category": "Ferace",
     "price": 2000,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_dd85f0f4f5c1b4a8133b23d6799a7d65.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_b2b8f98f922d4b97cdf72e894bd5a13f.jpg"
   },
   {
     "slug": "ipek-kupra-abaya",
@@ -93,7 +93,7 @@
     "category": "Abaya",
     "price": 3500,
     "badge": "",
-    "image": "https://cdn.shopier.app/pictures_large/Erdemboutique_0421e76dda4ff0ee577ff7226aec570e.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_86194e02393bb6dead68fa55fff81f04.jpg"
   },
   {
     "slug": "papatya-takim",
@@ -101,7 +101,7 @@
     "category": "Takım",
     "price": 3000,
     "badge": "",
-    "image": "https://cdn.shopier.app/pictures_large/Erdemboutique_d738029b8ad5c92f6432d04e980f14f6.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_d738029b8ad5c92f6432d04e980f14f6.jpg"
   },
   {
     "slug": "kase-kaban",
@@ -109,7 +109,8 @@
     "category": "Kaban",
     "price": 1300,
     "badge": "İndirim",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_ce80076d9b8b3b9f59ee394c1a647642.jpg"
+    "compare_price": 1600,
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_ce80076d9b8b3b9f59ee394c1a647642.jpg"
   },
   {
     "slug": "zumrut-abaya",
@@ -117,7 +118,7 @@
     "category": "Abaya",
     "price": 3000,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_78c82cbe9ca411d45985c589b7ed283a.jpeg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_78c82cbe9ca411d45985c589b7ed283a.jpeg"
   },
   {
     "slug": "sude-ferace",
@@ -125,15 +126,15 @@
     "category": "Ferace",
     "price": 2000,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_44113a632849aa82c104e23518e854eb.jpeg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_44113a632849aa82c104e23518e854eb.jpeg"
   },
   {
     "slug": "ferace",
-    "name": "ferace",
+    "name": "Ferace",
     "category": "Ferace",
     "price": 2300,
     "badge": "",
-    "image": "https://cdn.shopier.app/scaledoriginal/Erdemboutique_110e840bf05c0264af578605fc44fe14.JPG"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_110e840bf05c0264af578605fc44fe14.JPG"
   },
   {
     "slug": "vagon-ferace",
@@ -141,14 +142,14 @@
     "category": "Ferace",
     "price": 2000,
     "badge": "",
-    "image": "https://cdn.shopier.app/pictures_small/Erdemboutique_330fc37b173c42c4c4df7447d26307f1.JPG"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_330fc37b173c42c4c4df7447d26307f1.JPG"
   },
   {
     "slug": "prenses-abiye",
-    "name": "Prenses abiye",
+    "name": "Prenses Abiye",
     "category": "Özel Gün",
     "price": 2100,
     "badge": "Son Ürün",
-    "image": "https://cdn.shopier.app/pictures_small/Erdemboutique_3d0de20656880d4ad9e3e0ffb57e8403.jpg"
+    "image": "https://cdn.shopier.app/pictures_mid/Erdemboutique_3d0de20656880d4ad9e3e0ffb57e8403.jpg"
   }
 ]
